@@ -1,0 +1,25 @@
+DROP TABLE UserInfo;
+
+CREATE TABLE UserInfo(
+UserID NUMBER(6) NOT NULL,
+Password VARCHAR2(100) NOT NULL,
+Firstname VARCHAR2(100),
+Lastname VARCHAR2(100),
+Username VARCHAR2(100),
+Address VARCHAR2(100),
+Company VARCHAR2(100),
+City VARCHAR2(100),
+State VARCHAR2(100),
+Postcode VARCHAR2(100),
+Country VARCHAR2(100),
+Email VARCHAR2(100) NOT NULL,
+Telephone VARCHAR2(100),
+Cardname VARCHAR2(100),
+Cardnumber NUMBER(16),
+Expirymonth NUMBER(2),
+Expiryyear NUMBER(4),
+Cvv NUMBER(3),
+PRIMARY KEY (UserID)
+);
+
+commit;

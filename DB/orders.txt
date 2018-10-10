@@ -1,0 +1,11 @@
+DROP TABLE Orders;
+
+CREATE TABLE Orders (
+OrderID NUMBER(6) NOT NULL,
+PurchaseDate VARCHAR2(100) NOT NULL,
+Total DECIMAL(10,2)  NOT NULL,
+UserID NUMBER(6) NOT NULL,
+PRIMARY KEY (OrderID)
+) ;
+
+commit;
